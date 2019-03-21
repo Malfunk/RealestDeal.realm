@@ -3,15 +3,6 @@ body {
 }
 
 
-p {
-    font: 1em arial;
-    font-size: 18px;
-    color: rgb(236, 239, 240);
-    margin-left: 0.5cm;
-    margin-top: 0.25cm
-}
-
-
 h1 {
     font: 1em arial; 
     font-size: 260px; 
@@ -42,10 +33,52 @@ h4 {
 }
 
 
+p {
+    font: 1em arial;
+    font-size: 18px;
+    color: rgb(236, 239, 240);
+    margin-left: 0.5cm;
+    margin-top: 0.25cm
+}
 li {
         font: 1em arial;
         font-size: 16px;
         color: rgb(236, 239, 240);
         margin-left: 1cm;
         margin-top: 0.25cm
+}
+button {
+    
+    background-color: rgb(184, 3, 3);
+    margin-bottom: 3cm;
+    margin-left: 12.25cm
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+a {
+  font: 1em arial;
+    font-size: 36px;
+    text-decoration: none;
+    color: white; 
+}    
+a:link {
+    color: white;
+} 
+a:visited {
+    color: grey;
+} 
+
+span {
+    background-color: green;
+}
+span.red {
+    background-color:red
+}
+.column {
+    color: white;
+    display: inline-block;
+}
+.arrow-column {
+    width: 45%;
 }
